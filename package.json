@@ -1,0 +1,45 @@
+{
+  "name": "lichess-ts-client",
+  "version": "0.1.0",
+  "description": "A TypeScript client for the Lichess API, generated from the official OpenAPI specification",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "generate": "openapi-ts",
+    "build": "tsc",
+    "clean": "rm -rf dist src/generated",
+    "prebuild": "npm run generate",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "lichess",
+    "chess",
+    "api",
+    "typescript",
+    "client",
+    "sdk"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/lichess-ts.git"
+  },
+  "homepage": "https://github.com/yourusername/lichess-ts#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/lichess-ts/issues"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.74.0",
+    "@types/node": "^24.0.3",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module"
+}
