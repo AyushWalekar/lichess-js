@@ -1,6 +1,6 @@
-# lichess-ts-client
+# lichess-js
 
-A TypeScript client for the Lichess API, generated from the official OpenAPI specification.
+A modern JavaScript/TypeScript client for the Lichess API, generated from the official OpenAPI specification.
 
 ## Features
 
@@ -9,15 +9,16 @@ A TypeScript client for the Lichess API, generated from the official OpenAPI spe
 - 🚀 **Modern**: Uses Fetch API with ESM modules
 - 🔑 **Authentication**: Built-in support for Personal Access Tokens
 - 📦 **Tree-shakable**: Only import what you need
+- 🌐 **Universal**: Works in Node.js and modern browsers
 
 ## Installation
 
 ```bash
-npm install lichess-ts-client
+npm install lichess-js
 # or
-pnpm add lichess-ts-client
+pnpm add lichess-js
 # or
-yarn add lichess-ts-client
+yarn add lichess-js
 ```
 
 ## Quick Start
@@ -27,7 +28,7 @@ yarn add lichess-ts-client
 2. **Use the client**:
 
 ```typescript
-import { createLichessClient } from "lichess-ts-client";
+import { createLichessClient } from "lichess-js";
 
 // Create client with your token
 const lichess = createLichessClient({
@@ -64,7 +65,7 @@ console.log("Recent games:", games.data);
 ### Basic Configuration
 
 ```typescript
-import { createLichessClient } from "lichess-ts-client";
+import { createLichessClient } from "lichess-js";
 
 const lichess = createLichessClient({
   token: "your-token",

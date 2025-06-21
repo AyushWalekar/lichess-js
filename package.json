@@ -1,7 +1,7 @@
 {
-  "name": "lichess-ts-client",
+  "name": "lichess-js",
   "version": "0.1.0",
-  "description": "A TypeScript client for the Lichess API, generated from the official OpenAPI specification",
+  "description": "A modern JavaScript/TypeScript client for the Lichess API, generated from the official OpenAPI specification",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,6 +19,7 @@
     "lichess",
     "chess",
     "api",
+    "javascript",
     "typescript",
     "client",
     "sdk"
@@ -27,11 +28,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/lichess-ts.git"
+    "url": "https://github.com/AyushWalekar/lichess-js.git"
   },
-  "homepage": "https://github.com/yourusername/lichess-ts#readme",
+  "homepage": "https://github.com/AyushWalekar/lichess-js#readme",
   "bugs": {
-    "url": "https://github.com/yourusername/lichess-ts/issues"
+    "url": "https://github.com/AyushWalekar/lichess-js/issues"
   },
   "devDependencies": {
     "@hey-api/openapi-ts": "^0.74.0",
