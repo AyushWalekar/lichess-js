@@ -1,4 +1,4 @@
-# lichess-js
+# @ayushwalekar/lichess-js
 
 A modern JavaScript/TypeScript client for the Lichess API, generated from the official OpenAPI specification.
 
@@ -14,11 +14,11 @@ A modern JavaScript/TypeScript client for the Lichess API, generated from the of
 ## Installation
 
 ```bash
-npm install lichess-js
+npm install @ayushwalekar/lichess-js
 # or
-pnpm add lichess-js
+pnpm add @ayushwalekar/lichess-js
 # or
-yarn add lichess-js
+yarn add @ayushwalekar/lichess-js
 ```
 
 ## Quick Start
@@ -28,7 +28,7 @@ yarn add lichess-js
 2. **Use the client**:
 
 ```typescript
-import { createLichessClient } from "lichess-js";
+import { createLichessClient } from "@ayushwalekar/lichess-js";
 
 // Create client with your token
 const lichess = createLichessClient({
@@ -65,7 +65,7 @@ console.log("Recent games:", games.data);
 ### Basic Configuration
 
 ```typescript
-import { createLichessClient } from "lichess-js";
+import { createLichessClient } from "@ayushwalekar/lichess-js";
 
 const lichess = createLichessClient({
   token: "your-token",

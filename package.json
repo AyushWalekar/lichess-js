@@ -1,5 +1,5 @@
 {
-  "name": "lichess-js",
+  "name": "@ayushwalekar/lichess-js",
   "version": "0.1.0",
   "description": "A modern JavaScript/TypeScript client for the Lichess API, generated from the official OpenAPI specification",
   "main": "dist/index.js",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AyushWalekar/lichess-js.git"
+    "url": "git+https://github.com/AyushWalekar/lichess-js.git"
   },
   "homepage": "https://github.com/AyushWalekar/lichess-js#readme",
   "bugs": {
@@ -42,5 +42,8 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  }
 }
